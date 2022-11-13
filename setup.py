@@ -1,4 +1,8 @@
+import os
+import sys
+import shutil
 from setuptools import setup
+from setuptools import find_packages
 
 with open('requirements.txt') as f:
     required = f.read().splitlines()

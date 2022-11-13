@@ -11,7 +11,7 @@ setup(
     name='AstroDC',
     version='0.0.1',    
     description='A simple Python package helps us to clean data',
-    url='https://github.com/mahdiabdollahii96/AstroDC',
+    url='https://github.com/Mahdi-Abdollahii/AstroDC',
     author='Mahdi',
     author_email='mahdiabdollahii96@gmail.com',
     license='MIT',

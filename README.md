@@ -1,4 +1,4 @@
-# My_Pakcages
+# AstroDC
 
 AstroDC is a flexible data cleaning package.
 

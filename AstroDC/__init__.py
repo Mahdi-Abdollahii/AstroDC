@@ -11,7 +11,7 @@ class AstroDC:
         pass
     
     #----------------------------------------------------------------------
-    def XML_CSV_to_CSV(file_address, file_name):
+    def Vizier_XMLCSV_to_CSV(file_address, file_name):
         
       #reading file
       file_ = open(file_address, "r")
@@ -42,7 +42,7 @@ class AstroDC:
         
         
     #----------------------------------------------------------------------
-    def isochrom_csv(file_addres,file_name):
+    def Stev_Isochrom_CSV(file_addres,file_name):
       #reading file
       file_ = open(file_addres, "r")
       file_ = file_.read()

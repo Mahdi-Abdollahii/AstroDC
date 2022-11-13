@@ -10,8 +10,9 @@ class AstroDC:
     def __init__(self):
         pass
     
+    #----------------------------------------------------------------------
     def XML_CSV_to_CSV(file_address, file_name):
-
+        
       #reading file
       file_ = open(file_address, "r")
       file_ = file_.read()
@@ -38,9 +39,10 @@ class AstroDC:
           writer.writerow(data_list)
       myFile.close()
       print(" .csv file of this data saved in local directory.")
-    
+        
+        
+    #----------------------------------------------------------------------
     def isochrom_csv(file_addres,file_name):
-
       #reading file
       file_ = open(file_addres, "r")
       file_ = file_.read()

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VOTABLE version="1.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.ivoa.net/xml/VOTable/v1.2" >
+ <DESCRIPTION>
+   VizieR Astronomical Server vizier.cds.unistra.fr
+    Date: 2022-11-14T12:28:23 [V7.294]
+   In case of problem, please report to:	cds-question@unistra.fr
+ </DESCRIPTION>
+<!-- VOTable description at http://www.ivoa.net/Documents/latest/VOT.html -->
+<INFO ID="VERSION" name="version" value="7.294"/>
+<INFO ID="Ref" name="-ref" value="VIZ637234591b96a4"/>
+<INFO ID="MaxTuples" name="-out.max" value="50"/>
+<INFO name="queryParameters" value="17">
+-oc.form=dec
+-out.max=50
+-out.add=_r
+-out.add=_RAJ,_DEJ
+-sort=_r
+-nav=cat:J/A+A/647/A167&amp;tab:{J/A+A/647/A167/ukirt}&amp;key:source=J/A+A/647/A167/ukirt&amp;HTTPPRM:&amp;-out.max=50&amp;-out.form=HTML Table&amp;-out.add=_r&amp;-out.add=_RAJ,_DEJ&amp;-sort=_r&amp;-oc.form=sexa&amp;
+-c.eq=J2000
+-c.r=  2
+-c.u=arcmin
+-c.geom=r
+-source=J/A+A/647/A167/ukirt
+-order=I
+-out=RAJ2000
+-out=DEJ2000
+-out=JmagUKIRT
+-out=HmagUKIRT
+-out=KmagUKIRT
+</INFO>
+
+<!--
+Execution Reports
+ -->
+
+<RESOURCE ID="yCat_36470167" name="J/A+A/647/A167">
+  <DESCRIPTION>Using H-bump to identify RSGs in NGC6822 (Yang+, 2021)</DESCRIPTION>
+  <COOSYS ID="J2000" system="eq_FK5" equinox="J2000"/>
+  <TABLE ID="J_A_A_647_A167_ukirt" name="J/A+A/647/A167/ukirt">
+    <DESCRIPTION>UKIRT photometric catalog (table A4)</DESCRIPTION>
+    <!-- Definitions of GROUPs and FIELDs -->
+
+<!-- +++No column could be found to attach a LINK in table: J/A+A/647/A167/ukirt -->
+    <FIELD name="_RAJ2000" ucd="pos.eq.ra" ref="J2000" datatype="double" width="12" precision="8" unit="deg"><!-- ucd="POS_EQ_RA" -->
+      <DESCRIPTION>Right ascension (FK5, Equinox=J2000.0) (computed by VizieR, not part of the original data. The format may include more digits than the original data because of internal accuracy requirements in VizieR and across other CDS services)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="_DEJ2000" ucd="pos.eq.dec" ref="J2000" datatype="double" width="12" precision="8" unit="deg"><!-- ucd="POS_EQ_DEC" -->
+      <DESCRIPTION>Declination (FK5, Equinox=J2000.0) (computed by VizieR, not part of the original data. The format may include more digits than the original data because of internal accuracy requirements in VizieR and across other CDS services)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="RAJ2000" ucd="pos.eq.ra;meta.main" ref="J2000" datatype="double" width="10" precision="6" unit="deg"><!-- ucd="POS_EQ_RA_MAIN" -->
+      <DESCRIPTION>Right ascension (J2000)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="DEJ2000" ucd="pos.eq.dec;meta.main" ref="J2000" datatype="double" width="10" precision="6" unit="deg"><!-- ucd="POS_EQ_DEC_MAIN" -->
+      <DESCRIPTION>Declination (J2000)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="JmagUKIRT" ucd="phot.mag;em.IR.J" datatype="float" width="6" precision="3" unit="mag"><!-- ucd="PHOT_JHN_J" -->
+      <DESCRIPTION>UKIRT J-band magnitude</DESCRIPTION>
+    </FIELD>
+    <FIELD name="HmagUKIRT" ucd="phot.mag;em.IR.H" datatype="float" width="6" precision="3" unit="mag"><!-- ucd="PHOT_JHN_H" -->
+      <DESCRIPTION>UKIRT H-band magnitude</DESCRIPTION>
+    </FIELD>
+    <FIELD name="KmagUKIRT" ucd="phot.mag;em.IR.K" datatype="float" width="6" precision="3" unit="mag"><!-- ucd="PHOT_JHN_K" -->
+      <DESCRIPTION>UKIRT K-band magnitude</DESCRIPTION>
+    </FIELD>
+<DATA><CSV headlines="3" colsep=";"><![CDATA[
+_RAJ2000;_DEJ2000;RAJ2000;DEJ2000;JmagUKIRT;HmagUKIRT;KmagUKIRT
+deg;deg;deg;deg;mag;mag;mag
+------------;------------;----------;----------;------;------;------
+295.89975000;-14.51039694;295.899750;-14.510397;18.873;18.584;18.196
+295.89975000;-14.61063694;295.899750;-14.610637;18.853;18.453;18.253
+295.89975000;-14.78489806;295.899750;-14.784898;16.839;16.196;16.024
+295.89975000;-15.12912806;295.899750;-15.129128;17.198;16.619;16.384
+295.89978000;-14.62363306;295.899780;-14.623633;17.481;17.145;17.054
+295.89978000;-14.73788889;295.899780;-14.737889;16.328;15.769;15.531
+295.89984111;-14.63204194;295.899841;-14.632042;19.029;18.470;18.084
+295.89999389;-15.04140111;295.899994;-15.041401;17.919;17.394;17.358
+295.90002389;-14.58116611;295.900024;-14.581166;15.982;15.618;15.540
+295.90002389;-14.62850611;295.900024;-14.628506;17.332;16.666;16.411
+295.90002389;-14.65057194;295.900024;-14.650572;18.851;18.166;17.929
+295.90002389;-15.13105000;295.900024;-15.131050;18.812;18.945;18.518
+295.90005500;-15.00400806;295.900055;-15.004008;18.513;17.956;17.880
+295.90008500;-14.98099389;295.900085;-14.980994;15.887;15.313;15.111
+295.90011611;-14.52606111;295.900116;-14.526061;18.357;17.686;17.462
+295.90014611;-14.52280194;295.900146;-14.522802;16.083;15.488;15.288
+295.90014611;-14.96981611;295.900146;-14.969816;18.213;17.784;17.177
+295.90020806;-14.92417194;295.900208;-14.924172;15.862;15.510;15.477
+295.90023806;-14.60742611;295.900238;-14.607426;18.861;18.384;17.977
+295.90023806;-14.81209194;295.900238;-14.812092;14.737;14.713;14.704
+295.90023806;-14.99270806;295.900238;-14.992708;17.175;16.964;16.961
+295.90026889;-14.96523889;295.900269;-14.965239;17.730;17.186;16.922
+295.90026889;-15.07702000;295.900269;-15.077020;14.951;14.496;14.398
+295.90029889;-15.00750000;295.900299;-15.007500;18.678;17.863;17.731
+295.90033000;-14.68224694;295.900330;-14.682247;19.133;18.335;18.010
+295.90033000;-14.75152806;295.900330;-14.751528;16.767;16.523;16.462
+295.90036000;-14.51573111;295.900360;-14.515731;19.433;18.871;18.801
+295.90036000;-15.13456111;295.900360;-15.134561;18.983;18.451;18.409
+295.90039111;-14.56545306;295.900391;-14.565453;18.745;18.270;18.060
+295.90039111;-14.82361111;295.900391;-14.823611;17.474;16.888;16.745
+295.90042111;-15.00898111;295.900421;-15.008981;19.164;18.532;18.559
+295.90048194;-15.10968694;295.900482;-15.109687;16.852;16.215;16.040
+295.90051306;-14.70297194;295.900513;-14.702972;16.203;15.859;15.791
+295.90051306;-14.75267806;295.900513;-14.752678;14.111;13.825;13.755
+295.90057389;-14.54497500;295.900574;-14.544975;17.518;16.834;16.553
+295.90060389;-14.53595389;295.900604;-14.535954;16.131;15.541;15.290
+295.90060389;-14.94438611;295.900604;-14.944386;16.220;15.930;15.921
+295.90066500;-14.59849611;295.900665;-14.598496;17.827;17.507;17.451
+295.90069611;-14.85533000;295.900696;-14.855330;14.320;13.872;13.784
+295.90072611;-15.11882806;295.900726;-15.118828;18.613;18.072;17.719
+295.90075694;-14.84424389;295.900757;-14.844244;18.156;17.817;17.851
+295.90075694;-14.88682500;295.900757;-14.886825;19.331;18.744;18.506
+295.90078694;-15.04457000;295.900787;-15.044570;16.728;16.334;16.295
+295.90087889;-14.65344389;295.900879;-14.653444;17.110;16.435;16.295
+295.90094000;-14.53807500;295.900940;-14.538075;17.496;17.159;17.087
+295.90094000;-14.55385306;295.900940;-14.553853;18.153;17.534;17.316
+295.90094000;-14.55966389;295.900940;-14.559664;19.038;18.784;18.568
+295.90097000;-14.68014694;295.900970;-14.680147;17.987;17.415;17.192
+295.90097000;-14.68380806;295.900970;-14.683808;18.698;18.162;17.803
+295.90097000;-15.06018111;295.900970;-15.060181;13.899;13.529;13.454
+]]></CSV></DATA>
+</TABLE>
+<INFO name="matches" value="50">matching records</INFO>
+
+<INFO name="Warning" value="No center provided++++"/>
+<INFO name="Warning" value="vc_coo can't change epoch"/>
+<INFO name="Warning" value="increase the precision for computed column 9"/>
+<INFO name="Warning" value="increase the precision for computed column 9"/>
+<INFO name="Warning" value="truncated result (maxtup=50)"/><INFO name="QUERY_STATUS" value="OVERFLOW">truncated result (maxtup=50)</INFO>
+
+</RESOURCE>
+</VOTABLE>

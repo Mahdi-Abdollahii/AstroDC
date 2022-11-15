@@ -38,7 +38,7 @@ class AstroDC:
       for data_list in list_array:
           writer.writerow(data_list)
       myFile.close()
-      print(" .csv file of this data saved in local directory.")
+      print( file_name + ".csv file of this data saved in local directory.")
         
         
     #----------------------------------------------------------------------
@@ -67,3 +67,4 @@ class AstroDC:
         for data_list in list_of_Isochrom_for_all_years[i][1:]:
           writer.writerow(data_list)
       myFile.close()
+      print( file_name + ".csv file of this data saved in local directory.")

@@ -1,5 +1,10 @@
-# AstroDC
+---
+AstroDC
+===
 
+This is to facilitate the “Machine Learning in Physics” course that I am
+teaching at Sharif University of Technology for winter-19 semester. For more
+information, see the course page at
 AstroDC is a flexible data cleaning package.
 
 Installation:

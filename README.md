@@ -11,7 +11,7 @@ Installation:
 
 The project is hosted on GitHub. Get a copy by running:
 
-<code> git clone https://github.com/Mahdi-Abdollahii/AstroDC.git </code> ==$
+<code> git clone https://github.com/Mahdi-Abdollahii/AstroDC.git </code> ==$0
 
 Install the package using:
 

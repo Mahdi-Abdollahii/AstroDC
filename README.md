@@ -15,4 +15,4 @@ The project is hosted on GitHub. Get a copy by running:
 
 Install the package using:
 
-$  pip install git+https://github.com/Mahdi-Abdollahii/AstroDC.git
+<code> $  pip install git+https://github.com/Mahdi-Abdollahii/AstroDC.git <\code>

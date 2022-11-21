@@ -9,7 +9,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='AstroDC',
-    version='0.0.1',    
+    version='1.0.2',    
     description='A simple Python package helps us to clean data',
     url='https://github.com/Mahdi-Abdollahii/AstroDC',
     author='Mahdi',

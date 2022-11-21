@@ -30,7 +30,10 @@ class AstroDC:
         for j in range(len(i)):
           if i[j] == "        ":
             i[j] = np.nan
-          i[j] = float(i[j])
+          try :  
+            i[j] = float(i[j])
+          except:
+            pass
 
       # making DataFrame
       myFile = open(file_name + '.csv', 'w')

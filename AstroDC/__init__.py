@@ -5,6 +5,7 @@ import numpy as np
 import pandas as pd
 import csv
 from astropy import units
+from astropy.coordinates import SkyCoord
 
 class AstroDC:
     

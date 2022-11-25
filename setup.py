@@ -9,8 +9,8 @@ with open('requirements.txt') as f:
 
 setup(
     name='AstroDC',
-    version='1.0.2',    
-    description='A simple Python package helps us to clean data',
+    version='1.0.3',    
+    description='A simple Python package helps us to clean and prepare data related to astronomy and astrophysics',
     url='https://github.com/Mahdi-Abdollahii/AstroDC',
     author='Mahdi',
     author_email='mahdiabdollahii96@gmail.com',

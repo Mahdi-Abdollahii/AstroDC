@@ -97,7 +97,7 @@ class AstroDC:
 
       # making raw file and fill it by region data 
       f = open( File_name + '.reg' , "a")
-      f.write('global color=' + Color +' font="helvetica 10 normal" select=1 highlite=1 edit=1 move=1 delete=1 include=1 fixed=0 source')
+      f.write('global color=' + Color +' font="helvetica 10 normal" select=1 highlite=1 edit=1 move=1 delete=1 include=1 fixed=0 source'+'\n')
 
       for i in list_cor_deg :
         Ra_deg  = str(i).split('deg\n')[1].split('(')[1].split(')')[0].split(',')[0]

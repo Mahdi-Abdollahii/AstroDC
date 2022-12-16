@@ -104,3 +104,4 @@ class AstroDC:
         Dec_deg = str(i).split('deg\n')[1].split('(')[1].split(')')[0].split(',')[1].split()[0]
         f.write( 'fk5;'+ 'circle' +'('+ Ra_deg + ',' + Dec_deg + ',' + str(Size)+ '")  #   '+"text=''" + '\n')
       f.close()
+      print( File_name + ".reg file of this data saved in local directory.")

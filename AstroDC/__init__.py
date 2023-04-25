@@ -47,7 +47,7 @@ class AstroDC:
         
         
     #----------------------------------------------------------------------
-    def Stev_Isochrom_CSV(file_addres,file_name):
+    def Stev_Isochrone_CSV(file_addres,file_name):
       #reading file
       file_ = open(file_addres, "r")
       file_ = file_.read()

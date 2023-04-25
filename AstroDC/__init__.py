@@ -54,22 +54,22 @@ class AstroDC:
 
       #processing steps
       print(file_.split("isochrone tables")[0] + "isochrone dataframe" )
-      list_of_Isochrom_for_all_years = file_.split("isochrone tables")[1].split('#')[1:-1]
-      Number_Of_years = len(list_of_Isochrom_for_all_years )
+      list_of_Isochrone_for_all_years = file_.split("isochrone tables")[1].split('#')[1:-1]
+      Number_Of_years = len(list_of_Isochrone_for_all_years )
 
       for i in range(Number_Of_years):
-        list_of_Isochrom_for_all_years[i] = list_of_Isochrom_for_all_years[i].split('\n')
+        list_of_Isochrone_for_all_years[i] = list_of_Isochrone_for_all_years[i].split('\n')
       for i in range(Number_Of_years):
-        for j in range(len(list_of_Isochrom_for_all_years[i])):
-          list_of_Isochrom_for_all_years[i][j] = list_of_Isochrom_for_all_years[i][j].split()
+        for j in range(len(list_of_Isochrone_for_all_years[i])):
+          list_of_Isochrone_for_all_years[i][j] = list_of_Isochrone_for_all_years[i][j].split()
 
       # making csv file
       myFile = open(file_name + '.csv', 'w')
       writer = csv.writer(myFile)
-      writer.writerow(list_of_Isochrom_for_all_years[0][0])
+      writer.writerow(list_of_Isochrone_for_all_years[0][0])
 
       for i in range(Number_Of_years):
-        for data_list in list_of_Isochrom_for_all_years[i][1:]:
+        for data_list in list_of_Isochrone_for_all_years[i][1:]:
           writer.writerow(data_list)
       myFile.close()
       print( file_name + ".csv file of this data saved in local directory.")

@@ -53,9 +53,8 @@ class AstroDC:
       file_ = file_.read()
 
       #processing steps
-      if Description == False :
-        print(1)
-        #print(file_.split("isochrone tables")[0] + "isochrone dataframe" )
+      if Description == True :
+        print(file_.split("isochrone tables")[0] + "isochrone dataframe" )
       list_of_Isochrone_for_all_years = file_.split("isochrone tables")[1].split('#')[1:-1]
       Number_Of_years = len(list_of_Isochrone_for_all_years )
 
